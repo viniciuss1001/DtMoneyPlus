@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import * as Dialogue from '@radix-ui/react-dialog'
 export const HeaderContainer = styled.header`
       background: ${props => props.theme['gray-900']};
       padding: 2.5rem 0 7.5rem;
@@ -19,7 +19,7 @@ export const HeaderContent = styled.div`
 
 `
 
-export const NewTransactionButton = styled.button`
+export const NewTransactionButton = styled(Dialogue.Trigger)`
       height: 50px;
       border: 0;
       background:  ${props => props.theme['green-500']};
