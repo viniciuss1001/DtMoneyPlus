@@ -1,8 +1,11 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import { Overlay, Content, CloseModalButton,TransactionType,TransactionTypeButton } from "./Styled";
+import { Overlay, Content, CloseModalButton, TransactionType, TransactionTypeButton } from "./Styled";
 import { ArrowCircleDown, ArrowCircleUp, X } from "@phosphor-icons/react";
 
+
+
 export function NewTransactionModal() {
+
      return (
           <Dialog.Portal>
                <Overlay />
@@ -15,31 +18,33 @@ export function NewTransactionModal() {
                     </CloseModalButton>
                     <form>
                          <input type="text"
-                         placeholder="Nome da transação"
-                         required
+                              placeholder="Nome da transação"
+                              required
                          />
                          <input type="number" placeholder="Preço"
-                         required />
-                         <input type="text" 
-                         placeholder="Categoria"
-                         required
+                              required />
+                         <input type="text"
+                              placeholder="Categoria"
+                              required
                          />
                          <TransactionType>
                               <TransactionTypeButton
-                              variant="income"
+                                   variant="income"
+                                   value="income"
                               >
-                                   <ArrowCircleUp 
-                                   color="green"
-                                   size={32}
+                                   <ArrowCircleUp
+                                        color="green"
+                                        size={32}
                                    />
                                    Entradas
                               </TransactionTypeButton>
                               <TransactionTypeButton
-                              variant="outcome"
+                                   variant="outcome"
+                                   value="outcome"
                               >
-                                   <ArrowCircleDown 
-                                   size={32}
-                                   color="red"
+                                   <ArrowCircleDown
+                                        size={32}
+                                        color="red"
                                    />
                                    Saída
                               </TransactionTypeButton>
