@@ -4,7 +4,7 @@ import * as RadioGroup from '@radix-ui/react-radio-group';
 
 export const Overlay = styled(Dialog.Overlay)`
 position: fixed;
-width: 100vh;
+width: 100vw;
 height: 100vh;
 inset: 0;
 background: rgba(0, 0, 0, 0.75);
@@ -12,8 +12,8 @@ background: rgba(0, 0, 0, 0.75);
 export const Content = styled(Dialog.Content)`
 z-index: 1000;
 min-width: 32rem;
-width: 100vw;
-height: 100vh;
+width: 50vw;
+height: 55vh;
 border-radius: 6px;
 padding: 2.5rem 3rem;
 background: ${props => props.theme['gray-800']};
