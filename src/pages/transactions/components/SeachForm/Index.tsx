@@ -23,8 +23,9 @@ export function SeachForm(){
           resolver: zodResolver(searchFormSchema)
      })
 
-     function handleSearchTransactions(data: SearchFormInputs){
-          console.log(data)
+     async function handleSearchTransactions(data: SearchFormInputs){
+          await fetchTransactions(data.query)
+          console.log(data.query)
      }
 
      return( 

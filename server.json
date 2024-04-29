@@ -1,28 +1,68 @@
 {
-     "transactions":[
-               {
-                    "id":1,
-                    "description":"Desenvolvimento de Site",
-                    "type":"income",
-                    "category":"vendas",
-                    "price":14.000,
-                    "createdAt":"2024-03-17"
-               },
-               {
-                    "id":2,
-                    "description":"Investimento livros ",
-                    "type":"outcome",
-                    "category":"Faculdade",
-                    "price":55,
-                    "createdAt":"2024-03-17"
-               },
-               {
-                    "id":3,
-                    "description":"Lavagem de roupas ",
-                    "type":"income",
-                    "category":"Trabalho",
-                    "price":100,
-                    "createdAt":"2024-03-17"
-               }
-     ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de Site",
+      "type": "income",
+      "category": "vendas",
+      "price": 14,
+      "createdAt": "2024-03-17"
+    },
+    {
+      "id": 2,
+      "description": "Investimento livros ",
+      "type": "outcome",
+      "category": "Faculdade",
+      "price": 55,
+      "createdAt": "2024-03-17"
+    },
+    {
+      "id": 3,
+      "description": "Lavagem de roupas ",
+      "type": "income",
+      "category": "Trabalho",
+      "price": 100,
+      "createdAt": "2024-03-17"
+    },
+    {
+      "id": 4,
+      "description": "Academia",
+      "type": "outcome",
+      "category": "Academia",
+      "price": 80,
+      "createdAt": "29/04/2024"
+    },
+    {
+      "id": "57ae",
+      "description": "Estudos de Python",
+      "category": "estudos",
+      "price": 29,
+      "type": "income",
+      "createdAt": "2024-04-29T12:43:05.687Z"
+    },
+    {
+      "id": "abb5",
+      "description": "Estudos de Automação",
+      "category": "estudos",
+      "price": 30,
+      "type": "outcome",
+      "createdAt": "2024-04-29T12:44:37.074Z"
+    },
+    {
+      "id": "1140",
+      "description": "Notas Lavanderia",
+      "category": "Trabalho",
+      "price": 100,
+      "type": "income",
+      "createdAt": "2024-04-29T13:02:05.649Z"
+    },
+    {
+      "id": "9f38",
+      "description": "Fatura",
+      "price": 500,
+      "category": "Contas",
+      "type": "outcome",
+      "createdAt": "2024-04-29T13:09:00.848Z"
+    }
+  ]
 }
